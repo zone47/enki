@@ -5,7 +5,7 @@ Ajoute un bloc d'informations via Wikidata à une notice du site Collections du 
 # Présentation
 Cette extension est active uniquement sur le [site des Collections du musée du Louvre](https://collections.louvre.fr).
 
-Le module teste si un élément Wikidata est en correspondance avec l'identifiant d'une notice du site. Si un élément existe, certaines informations issues de Wikidata sont affichées quand elles sont renseignées (ID wikidata, libellé, image, créateur/créatrice, géolocalisation, lieu de découverte, ressources externes, expositions, sujet/thème et éléments iconographiques).
+Le module teste si un élément Wikidata est en correspondance avec l'identifiant d'une notice du site. Si un élément existe, certaines informations issues de Wikidata sont affichées quand elles sont renseignées (ID wikidata, libellé, image, créateur/créatrice, géolocalisation, lieu de découverte, ressources externes, expositions, sujet/thème et éléments iconographiques). Le module effectuant plusieurs requêtes pour récupérer des informations sur Wikidata, l'affichage peut prendre plusieurs secondes.
 
 Pour les notices n'ayant pas d'élément Wikidata en correspondance mais un ou plusieurs identifiants Wikidata renseignés pour les entités artistes (cas fréquent pour les œuvres du département des Arts graphiques), des renvois vers des notices d'autorité de personnes sont proposés.
 
