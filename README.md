@@ -38,7 +38,7 @@ L'extension ne fonctionne actuellement que sur le [navigateur Firefox](https://w
 
 Elle est téléchargeable à l'adresse : [https://raw.githubusercontent.com/zone47/enki/main/enki.xpi](https://raw.githubusercontent.com/zone47/enki/main/enki.xpi)
 
-Elle est téléchargeable à l'adresse : [https://zone47.com/lw/enki.xpi](https://zone47.com/lw/enki.xpi)
+Elle est téléchargeable à l'adresse : [https://github.com/zone47/enki/raw/master/enki.xpi](https://github.com/zone47/enki/raw/master/enki.xpi)
 
 En cliquant sur le lien, l'installation est automatiquement proposée.
 
