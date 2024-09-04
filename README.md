@@ -1,4 +1,4 @@
-![Enki](http://zone47.com/tmp/icone-enki.png) Enki - Wikidata Louvre Collections
+![Enki](https://raw.githubusercontent.com/zone47/enki/main/icone-enki.png) Enki - Wikidata Louvre Collections
 ======
 Ajoute un bloc d'informations via Wikidata à une notice du site Collections du Louvre - module non officiel
 
@@ -13,15 +13,15 @@ Les affirmations reprises depuis Wikidata sont affichées de façon simple, sans
 
 Exemple 1
 
-![Capture de la notice du Cratère Borghèse](https://github.com/zone47/enki/captures/cratere_borghese.png)
+![Capture de la notice du Cratère Borghèse](https://raw.githubusercontent.com/zone47/enki/main/captures/cratere_borghese.png)
 
 Exemple 2
 
-![Capture de la notice du Radeau de la Méduses](https://github.com/zone47/enki/captures/le_radeau_de_la_meduse.png)
+![Capture de la notice du Radeau de la Méduses](https://raw.githubusercontent.com/zone47/enki/main/captures/le_radeau_de_la_meduse.png)
 
 Exemple 3
 
-![Capture de la notice d'Ève tendant la pomme](https://github.com/zone47/enki/captures/eve_tendant_la_pomme.png)
+![Capture de la notice d'Ève tendant la pomme](https://raw.githubusercontent.com/zone47/enki/main/captures/eve_tendant_la_pomme.png)
 
 # Objectif
 Les extensions utilisant le web sémantique pour donner des informations complémentaires sur une ressoruce web sont nombreuses et existent depuis longtemps.
