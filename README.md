@@ -36,7 +36,7 @@ En résumé, l'objectif est, _Less is More_, de donner seulement quelques inform
 # Installation / Désactivation / Désinstallation
 L'extension ne fonctionne actuellement que sur le [navigateur Firefox](https://www.mozilla.org/fr/firefox/new/). 
 
-Elle est téléchargeable à l'adresse : https://github.com/zone47/enki/enki.xpi
+Elle est téléchargeable à l'adresse : https://raw.githubusercontent.com/zone47/enki/main/enki.xpi
 En cliquant sur le lien, l'installation est automatiquement proposée.
 
 Pour désactiver ou désinstaller l'installation, il suffit de se rendre dans l'entrée du Menu _Extensions et thèmes_.
