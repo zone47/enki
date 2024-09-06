@@ -24,7 +24,7 @@ Exemple 3
 ![Capture de la notice d'Ève tendant la pomme](https://raw.githubusercontent.com/zone47/enki/main/captures/eve_tendant_la_pomme.png)
 
 # Objectif
-Les extensions utilisant le web sémantique pour donner des informations complémentaires sur une ressoruce web sont nombreuses et existent depuis longtemps.
+Les extensions utilisant le web sémantique pour donner des informations complémentaires sur une ressource web sont nombreuses et existent depuis longtemps.
 
 L'idée pour ce projet est d'éditorialiser les données dans un contexte spécifique en ne gardant que ce qui pourrait être pertinent et en faisant des renvois adaptés. Ainsi sont présentés par exemple des liens vers les articles Wikipédia, des liens vers des cartes pour les lieux géolocalisés, des liens vers des listes d'éléments liés à une même exposition ou ayant un même élément en description. En revanche de nombreuses informations, présentes dans les éléments Wikidata, ne sont pas restituées comme les dates ou matériaux,  déjà renseignés dans la notice d'autorité. 
 
@@ -40,7 +40,7 @@ L'extension est téléchargeable en faisant un clic droit "Enregistrer la cible 
 
 Pour l'installer, il suffit d'aller dans le menu _Extensions et thèmes_ / _icône Outils pour les extensions_ / _Installer un module depuis un fichier_ et de charger le fichier téléchargé.
 
-Pour désactiver ou désinstaller l'installation, il suffit de se rendre dans l'entrée du Menu _Extensions et thèmes_.
+Pour désactiver ou désinstaller l'extension, il suffit de se rendre dans l'entrée du Menu _Extensions et thèmes_.
 
 # Option de langue
 Un des intérêts de Wikidata est la dimension multilingue. La restitution des informations dans une langue souhaitée dépend de la présence de libellés. Il n'y a pas de traduction automatique. Pour le moment l'extension est par défaut en français dont les libellés existent dans près de 100% des cas. L'anglais peut être choisie comme langue préférentielle dans :
