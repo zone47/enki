@@ -55,10 +55,10 @@ Wikidata est une base collaborative libre faisant partie de la galaxie Wikimedia
 Une [ancienne vidéo de présentation sur comment créer et éditer une oeuvre d'art sur Wikidata](https://www.youtube.com/watch?v=-PiS-A3w3AM).
 
 # À faire
-- Refactoriser le code
 - Développer le multinguisme
 - Ajouter plus d'informations sur les créateurs / créatrices 
 - Ajouter un lien vers l'interface de création semi-automatique de nouveaux éléments
+- Refactoriser le code
 - Adaption de l'extention pour Chrome
 - Publier l'extension dans les catalogues
 
