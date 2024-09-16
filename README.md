@@ -33,6 +33,8 @@ Enfin, il est toujours possible d'accéder à toutes les informations  sur la pa
 
 En résumé, l'objectif est, _Less is More_, de donner seulement quelques informations et liens complémentaires potentiellement pertinents et utiles aux internautes.
 
+Une fois l'extension installée, le potentiel peut être aperçu en allant par exemple sur les notices de l'[album de sélection de chefs d'œuvres](https://collections.louvre.fr/album/2)
+
 # Installation / Désactivation / Désinstallation
 L'extension ne fonctionne actuellement que sur le [navigateur Firefox](https://www.mozilla.org/fr/firefox/new/). 
 
