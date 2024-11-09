@@ -245,6 +245,7 @@ if (isset($_GET['ark'])){
 				$url_geoloc="https://geohack.toolforge.org/geohack.php?params=".$lat."_N_".$long."_E_scale:5000_globe:Earth_type:camera_heading:179.00&language=".$lg;
 				$geoloc="<a href=\"".$url_geoloc."\" class=\"lienwd\">".$trads[$lg]["geoloc"]."</a> <a href=\"".$url_geoloc."\"><img src=\"https://zone47.com/crotos/img/map.png\" alt=\"\"/></a>\n";
 			}
+
 						
 			// Lieux
 			$tab_pcoord=array("P189"=>"");
@@ -259,6 +260,13 @@ if (isset($_GET['ark'])){
 								$tab_pcoord[$key].=" - ";
 							}
 							$tab_pcoord[$key].=$refeo;
+						}
+						$pleaides=array();
+						$pleaides=getclaimvalue($refsgeo[$j],"P1584");
+						for ($i=0;$i<count($pleaides);$i++){
+							if ($pleaides[$i]!=""){
+								$tab_pcoord[$key].=" <a href=\"https://pleiades.stoa.org/places/".$pleaides[$i]."\"><img src=\"https://zone47.com/lw/img/pleiades.png\" alt=\"\"/></a>";
+							}
 						}
 					}
 				}
