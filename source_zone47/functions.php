@@ -116,6 +116,17 @@ function coordgeo($qwd,$lg,$prop){
 		return $discoplace." <a href=\"https://geohack.toolforge.org/geohack.php?params=".$lat."_N_".$long."_E_scale:5000000_globe:Earth_type:camera_heading:179.00&language=".$lg."\"  class=\"lienwd\"\"><img src=\"https://zone47.com/crotos/img/map.png\" alt=\"\"/></a>";
 	}
 }
+function getclaimvalue($qwd,$prop){
+	$res=array();
+	$url_api="https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=".$qwd."&property=".$prop."&format=json";
+	$res  = json_decode(file_get_contents($url_api,true),true);
+	if (isset($res["claims"][$prop])){
+		foreach($res["claims"][$prop] as $key=>$val){
+			$res[]=$val["mainsnak"]["datavalue"]["value"];
+		}
+	}
+	return $res;
+}
 function page_title($url) {
 	$fp = file_get_contents($url);
 	if (!$fp) 
